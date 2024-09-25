@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header{
+    background-color: #333;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 1.5rem;
+}
+
+section.hero{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.hero h1{
+    text-transform: capitalize;
+}
+
+section.hero > p{
+    padding-top: 1.4rem;
+}
+
+section.topics > h2{
+    text-align: center;
+    padding: 1.4rem;
+    text-transform: capitalize;
+}
+
+section.topics li{
+    padding-left: 25rem;
+    list-style: circle;
+    text-transform: uppercase;
+
+}
+
+header > nav > a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+    
+}
+
+a.active{
+    background-color: #575757;
+}
